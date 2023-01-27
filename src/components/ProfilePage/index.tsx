@@ -12,7 +12,7 @@ export function ProfilePage() {
             <h1>Vinicius Costa</h1>
             <h2>@viniciuscosta9898</h2>
             <p>
-                <a href="https://viniciuscosta1998.vercel.app">Full Stack Developer</a>Passionete for technology
+                <a href="https://viniciuscosta1998.vercel.app">Full Stack Developer</a> Passionete for technology
             </p>
 
             <ul>
