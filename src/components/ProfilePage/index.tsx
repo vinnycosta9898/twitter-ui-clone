@@ -1,4 +1,4 @@
-import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage} from './styles';
+import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage, EditButton} from './styles';
 
 export function ProfilePage() {
   return (
@@ -8,7 +8,7 @@ export function ProfilePage() {
         </Banner>
 
         <ProfileData>
-            {/* // <EditButton outlined>Editar Perfil</EditButton> */}
+            <EditButton outlined>Editar Perfil</EditButton>
             <h1>Vinicius Costa</h1>
             <h2>@viniciuscosta9898</h2>
             <p>
