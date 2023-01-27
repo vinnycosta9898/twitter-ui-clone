@@ -1,4 +1,4 @@
-import { Container, Header, BackIcon, ProfileInfo} from './styles'
+import { Container, Header, BackIcon, ProfileInfo, BottomMenu, HomeIcon, SearchIcon, BellIcon, EmailIcon } from './styles'
 export function Main() {
   return (
     <Container>
@@ -13,14 +13,14 @@ export function Main() {
         </ProfileInfo>
       </Header>
 
-      {/* <ProfilePage/> */}
+      <ProfilePage/>
 
-      {/* <BottomMenu>
-        <HomeIcon/>
+      <BottomMenu>
+        <HomeIcon className="active"/>
         <SearchIcon/>
         <BellIcon/>
         <EmailIcon/>
-      </BottomMenu> */}
+      </BottomMenu>
     </Container>
   )
 }
