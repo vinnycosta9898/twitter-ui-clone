@@ -1,4 +1,6 @@
-import { Container, Header, BackIcon, ProfileInfo, BottomMenu, HomeIcon, SearchIcon, BellIcon, EmailIcon } from './styles'
+import { Container, Header, BackIcon, ProfileInfo, BottomMenu, HomeIcon, SearchIcon, BellIcon, EmailIcon } from './styles';
+import { ProfilePage } from '../ProfilePage';
+
 export function Main() {
   return (
     <Container>
