@@ -1,4 +1,5 @@
 import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage, EditButton} from './styles';
+import { Feed } from 'styled-icons/material-outlined';
 
 export function ProfilePage() {
   return (
@@ -37,6 +38,8 @@ export function ProfilePage() {
                </span>
             </Followage>
         </ProfileData>
+
+        <Feed/>
     </Container>
   )
 }
