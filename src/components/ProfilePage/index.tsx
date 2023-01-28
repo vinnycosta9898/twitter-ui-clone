@@ -1,5 +1,5 @@
 import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage, EditButton} from './styles';
-import { Feed } from 'styled-icons/material-outlined';
+import { Feed } from '../Feed';
 
 export function ProfilePage() {
   return (

@@ -60,12 +60,12 @@ export const ProfileData = styled.div`
     > p {
         font-size: 15px;
         margin-top: 11px;
-    }
 
-    a {
-        text-decoration: none;
-        color: var(--twitter);
-    }
+        > a {
+            text-decoration: none;
+            color: var(--twitter);
+        }
+    } 
 
     > ul {
         list-style: none;
@@ -93,9 +93,9 @@ const iconCSS = css`
 
 export const  LocationIcon = styled(LocationOn)`${iconCSS}`
 
-export const  CakeIcon = styled(Cake)`${iconCSS}`
+export const CakeIcon = styled(Cake)`${iconCSS}`
 
-export const  Followage = styled.div`
+export const Followage = styled.div`
     display: flex;
 
     > span{
