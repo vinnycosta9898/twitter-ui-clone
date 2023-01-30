@@ -1,7 +1,22 @@
-import { Container } from './styles'
+import { Container, Item, Title } from './styles'
 
-export default function List() {
+interface ListProps{
+    title: string;
+    elements: React.ReactNode[];
+}
+
+export default function List({title, elements} : ListProps) {
   return (
-    <div>List</div>
+    <Container>
+        <Item>
+            <Title>{title}</Title>    
+        </Item> 
+
+        {
+            elements.map((element, index) => (
+                <Item key={index}>{element}</Item>
+            ))
+        } 
+    </Container>
   )
 }
