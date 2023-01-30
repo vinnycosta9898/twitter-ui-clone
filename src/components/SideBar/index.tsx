@@ -6,6 +6,7 @@ import { Container,
         } from './styles';
 
 import { List } from '../List'
+import { FollowSuggestion } from '../FollowSuggestion'
 
 export function SideBar() {
   return (
@@ -19,7 +20,21 @@ export function SideBar() {
           <List
             title="Talvez você curta"
             elements={[
-              <h1>Test</h1>
+              <FollowSuggestion
+                name="Luiz Batanero"
+                nickname="@luizbatanero"
+              />,
+
+              <FollowSuggestion
+                name="Luke Morales"
+                nickname="@lukemorales"
+              />,
+
+              <FollowSuggestion
+                name="Camila Magalhães"
+                nickname="@camilaamgl"
+            />,
+
             ]}
           />
 
