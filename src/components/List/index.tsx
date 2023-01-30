@@ -5,7 +5,7 @@ interface ListProps{
     elements: React.ReactNode[];
 }
 
-export default function List({title, elements} : ListProps) {
+export function List({title, elements} : ListProps) {
   return (
     <Container>
         <Item>

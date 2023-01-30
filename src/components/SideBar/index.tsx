@@ -5,6 +5,8 @@ import { Container,
          Body,    
         } from './styles';
 
+import { List } from '../List'
+
 export function SideBar() {
   return (
     <Container>
@@ -14,7 +16,19 @@ export function SideBar() {
         </SearchWrapper>
 
         <Body>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam provident esse suscipit. Quo corrupti obcaecati, perferendis repellat laborum, doloremque sequi minima consequatur iusto earum suscipit velit explicabo. Expedita, iure?</p>  
+          <List
+            title="Talvez você curta"
+            elements={[
+              <h1>Test</h1>
+            ]}
+          />
+
+          <List
+            title="Talvez você curta"
+            elements={[
+              <h1>Test</h1>
+            ]}
+          />
         </Body>
     </Container>
   )
