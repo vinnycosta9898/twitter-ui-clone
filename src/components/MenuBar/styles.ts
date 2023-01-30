@@ -137,7 +137,7 @@ export const BotSide = styled.div`
 
 `
 
-export const Avatar = styled.div`
+export const Avatar = styled.img`
     width: 39px;
     height: 39px;
 

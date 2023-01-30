@@ -51,7 +51,7 @@ export function MenuBar(){
             </TopSide>
 
             <BotSide>
-                <Avatar/>
+                <Avatar src="https://github.com/vinnycosta9898.png"/>
                 <ProfileData>
                     <strong>Vinicius Costa</strong>
                     <span>@viniciuscosta9898</span>

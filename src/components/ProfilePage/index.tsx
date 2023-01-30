@@ -5,7 +5,7 @@ export function ProfilePage() {
   return (
     <Container>
         <Banner>
-            <Avatar/>
+            <Avatar src="https://github.com/vinnycosta9898.png"/>
         </Banner>
 
         <ProfileData>
