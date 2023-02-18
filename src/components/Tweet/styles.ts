@@ -39,7 +39,7 @@ export const Body = styled.div`
 
 `
 
-export const Avatar = styled.div`
+export const Avatar = styled.img`
     width: 49px;
     height: 49px;
 

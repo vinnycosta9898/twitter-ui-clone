@@ -24,7 +24,7 @@ export function Tweet() {
         </Retweeted>
 
         <Body>
-            <Avatar/>
+            <Avatar src="http://github.com/vinnycosta9898.png"/>
             <Content>
                 <Header>
                     <strong>Vinicius Costa</strong>
